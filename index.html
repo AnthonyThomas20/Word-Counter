@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Counter</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+		.container h3 {
+			-webkit-text-stroke-width: 0.5px;
+			-webkit-text-stroke-color: white;
+			text-shadow: 2px 2px #e91313;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3>Word Counter</h3>
+  		<textarea id="input"></textarea>
+  		<p>Total Words: 
+			<span id="count" class="currentcount">0</span>
+			<span class="slash">/</span>
+			<span id="max_count" class="maxcount">200</span>
+		</p>
+  		<script src="main.js"></script>
+	</div>
+</body>
+</html>
